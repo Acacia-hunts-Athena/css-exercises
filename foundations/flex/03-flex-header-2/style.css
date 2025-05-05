@@ -9,9 +9,25 @@ body {
 }
 
 .header {
+  padding: 0.5em;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-around;
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+}
+
+.content-left {
+  display: flex;
+  margin-right: auto;
+}
+
+.content-right {
+  display: flex;
+  flex: 0 1 auto;
+  gap: 1em;
+  margin-left: auto;
 }
 
 .profile-image {
@@ -30,12 +46,15 @@ body {
 }
 
 button {
+  align-self: center;
+  height: 30px;
   border: none;
   border-radius: 8px;
   background: rebeccapurple;
   color: white;
   padding: 8px 24px;
 }
+/*button currently had overflowing text when minimized too small :C*/
 
 a {
   /* this removes the line under our links */
@@ -44,5 +63,7 @@ a {
 }
 
 ul {
+  display: flex;
+  gap: 1em;
   list-style-type: none;
 }
