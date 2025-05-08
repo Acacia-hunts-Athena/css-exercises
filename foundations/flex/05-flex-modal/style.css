@@ -39,12 +39,19 @@ body {
   justify-content: center;
 }
 
+.header {
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: baseline;
+}
+
 .content {
   display: flex;
   flex-flow: column nowrap;
 }
 
 .close-button {
+  margin-left: auto;
   background: #eee;
   border-radius: 50%;
   color: #888;

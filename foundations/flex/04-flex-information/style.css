@@ -4,21 +4,6 @@ body {
   flex-flow: column nowrap;
   align-items: center;
 }
-.title {
-  margin-bottom: 50px;
-}
-.information-box {
-  display: flex;
-  flex-flow: row wrap;
-  justify-content: space-around;
-  align-items: center;
-  max-width: 1000px;
-
-}
-
-.info {
-  flex: 0 1 200px;
-}
 
 img {
   width: 100px;
