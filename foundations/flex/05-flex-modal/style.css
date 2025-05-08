@@ -18,11 +18,38 @@ body {
 .modal {
   display: flex;
   flex-flow: row nowrap;
+  gap: 20px;
   background: white;
   width: 480px;
   border-radius: 10px;
   box-shadow: 2px 4px 16px rgba(0,0,0,.2);
   padding: 15px;
+}
+
+.top {
+  display: flex;
+  flex-direction: column;
+}
+
+.toppest {
+  display: flex;
+  margin-bottom: 10px;
+}
+
+.header {
+  font-weight: bolder;
+  font-size: 1.2rem;
+}
+
+.content {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 10px;
+}
+
+
+.icon-box {
+  /* padding-right: 15px; Gap property in .modal accomplishes this better */
 }
 
 .icon {
@@ -39,16 +66,6 @@ body {
   justify-content: center;
 }
 
-.header {
-  display: flex;
-  flex-flow: row nowrap;
-  justify-content: baseline;
-}
-
-.content {
-  display: flex;
-  flex-flow: column nowrap;
-}
 
 .close-button {
   margin-left: auto;
