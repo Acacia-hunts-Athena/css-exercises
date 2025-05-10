@@ -12,6 +12,7 @@ body {
   flex: 1;
 }
 
+
 .header {
   display: flex;
   justify-content: flex-start;
@@ -32,13 +33,22 @@ body {
   height: 50px;
   background: #eee;
   color: darkmagenta;
-  /* margin-top: auto; */
+  /* margin-top: auto; Wouald cause problems if used! flex: 1 in center-holder is better!*/
 }
 
 .sidebar {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+}
+
+ul {
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: inherit;
 }
 
 .card {
