@@ -9,6 +9,7 @@ body {
 .center-holder {
   display: flex;
   flex-flow: row nowrap;
+  flex: 1;
 }
 
 .header {
@@ -31,7 +32,7 @@ body {
   height: 50px;
   background: #eee;
   color: darkmagenta;
-  margin-top: auto;
+  /* margin-top: auto; */
 }
 
 .sidebar {
