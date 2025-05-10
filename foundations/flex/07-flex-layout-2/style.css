@@ -17,9 +17,11 @@ body {
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  height: 72px;
+  height: 50px;
+  padding-left: 8px;
   background: darkmagenta;
   color: white;
+  font-weight: 1000;
 }
 
 .footer {
