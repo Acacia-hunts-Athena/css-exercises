@@ -6,13 +6,6 @@ body {
   flex-flow: column nowrap
 }
 
-.center-holder {
-  display: flex;
-  flex-flow: row nowrap;
-  flex: 1;
-}
-
-
 .header {
   display: flex;
   justify-content: flex-start;
@@ -24,6 +17,36 @@ body {
   font-weight: 1000;
 }
 
+.center-holder {
+  display: flex;
+  flex-flow: row nowrap;
+  flex: 1;
+}
+
+.sidebar {
+  width: 300px;
+  background: royalblue;
+  box-sizing: border-box;
+}
+
+ul {
+  display: flex;
+  flex-flow: column nowrap;
+  gap: 8px;
+  padding: 10px;
+  list-style: none;
+}
+
+li a {
+  text-decoration: none;
+  color: #eee;
+}
+
+.card {
+  border: 1px solid #eee;
+  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
+  border-radius: 4px;
+}
 
 .footer {
   display: flex;
@@ -34,25 +57,4 @@ body {
   background: #eee;
   color: darkmagenta;
   /* margin-top: auto; Wouald cause problems if used! flex: 1 in center-holder is better!*/
-}
-
-.sidebar {
-  width: 300px;
-  background: royalblue;
-  box-sizing: border-box;
-}
-
-ul {
-  list-style: none;
-}
-
-li a {
-  text-decoration: none;
-  color: inherit;
-}
-
-.card {
-  border: 1px solid #eee;
-  box-shadow: 2px 4px 16px rgba(0,0,0,.06);
-  border-radius: 4px;
 }
