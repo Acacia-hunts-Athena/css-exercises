@@ -27,6 +27,7 @@ body {
   width: 300px;
   background: royalblue;
   box-sizing: border-box;
+  flex: 1 0 150px;
 }
 
 ul {
@@ -40,6 +41,13 @@ ul {
 li a {
   text-decoration: none;
   color: #eee;
+}
+
+.main-content {
+  display: flex;
+  justify-content: space-around;
+  flex-flow: row;
+  gap: 16px;
 }
 
 .card {
