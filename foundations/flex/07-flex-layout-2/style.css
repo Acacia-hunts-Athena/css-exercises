@@ -11,8 +11,6 @@ body {
   flex-flow: row nowrap;
 }
 
-
-
 .header {
   display: flex;
   justify-content: flex-start;
@@ -24,8 +22,13 @@ body {
   font-weight: 1000;
 }
 
+
 .footer {
-  height: 72px;
+  display: flex;
+  justify-content: center;
+  flex-flow: row nowrap;
+  align-items: center;
+  height: 50px;
   background: #eee;
   color: darkmagenta;
 }
