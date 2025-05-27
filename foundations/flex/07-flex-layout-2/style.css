@@ -46,7 +46,8 @@ li a {
 }
 
 .main-content {
-  padding: 10px;
+  padding: 24px;
+  padding-right: 56px;
   display: flex;
   justify-content: space-around;
   flex-flow: row wrap;
@@ -59,6 +60,8 @@ li a {
   border-radius: 4px;
   flex: 0 1 320px;
   padding: 8px;
+  max-height: 320px;
+  /* font-size: 0.9em; */
 }
 
 .footer {
