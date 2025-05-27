@@ -74,6 +74,8 @@ img {
 }
 
 button {
+  margin-top: 16px;
+  padding: 8px;
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
